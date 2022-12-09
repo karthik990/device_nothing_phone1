@@ -17,6 +17,13 @@ $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 # Bootanimation resolution.
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Enable quick tap
+TARGET_SUPPORTS_QUICK_TAP := true
+
+# Blur
+TARGET_USES_BLUR := true
+
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_BRAND := Nothing
 PRODUCT_DEVICE := phone1
